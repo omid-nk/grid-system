@@ -29,6 +29,10 @@ body{
 .row > * {
     padding: 0 15px;
 }
+.col{
+    max-width: 100%;
+    flex-grow: 1;
+}
 .col-1{
     flex: 0 0 auto;
     width: 8.333333%;
